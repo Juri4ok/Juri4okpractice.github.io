@@ -87,7 +87,7 @@ nav{
 	color: var(--Black, #191919);
 	/* Button Text */
 	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 24px; /* 171.429% */
@@ -100,7 +100,7 @@ nav{
 	text-align: center;
 	/* Button Text */
 	font-family: 'Poppins', sans-serif;
-	font-size: 14px;
+	font-size: 20px;
 	font-style: normal;
 	font-weight: 600;
 	line-height: 24px; /* 171.429% */
