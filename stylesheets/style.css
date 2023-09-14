@@ -45,7 +45,8 @@ header{
 }
 main{
 	display: flex;
-	flex-direction: column;
+	flex-direction: row;
+	flex-wrap: wrap;
 	justify-content: center;
 	width: calc(100% - 80px);
 	padding: 30px 40px;
