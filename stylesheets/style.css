@@ -201,6 +201,9 @@ h2{
 	font-weight: 600;
 	line-height: 26px; /* 162.5% */
 }
+.column{
+	width: 250px;
+}
 @media screen and (min-width: 600px){
 	.column-1{
 	margin-bottom: 0px;
