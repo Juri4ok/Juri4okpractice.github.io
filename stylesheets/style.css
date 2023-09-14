@@ -203,6 +203,7 @@ h2{
 }
 .column{
 	width: 250px;
+	flex-direction: row;
 }
 @media screen and (min-width: 600px){
 	.column-1{
