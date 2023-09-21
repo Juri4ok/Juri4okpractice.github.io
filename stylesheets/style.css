@@ -191,7 +191,7 @@ h3{
 	line-height: 26px; /* 162.5% */
 }
 .read-more{
-	width: 80px;
+	max-width: 98px;
 	cursor: pointer;
 	display: inline-flex;
 	padding: 12px 36px;
@@ -204,6 +204,7 @@ h3{
 .read-more p{
 	color: var(--White, #FFF);
 	text-align: center;
+	text-transform: uppercase;
 	/* Button Text */
 	font-family: 'Poppins', sans-serif;
 	font-size: 14px;
@@ -249,6 +250,7 @@ h3{
 	justify-content: center;
 }
 .column{
+	max-width: 250px;
 	padding-bottom: 20px;
 }
 .Spacer{
@@ -324,12 +326,28 @@ h3{
 	width: 60px;
 	height: 60px;
 }
-.services > div {
+.services > div{
   width: 100%; /* Розмір для кожного кута */
   height: 100%; /* Розмір для кожного кута */
   display: flex;
   flex-direction: row;
   justify-content: center;
+}
+.user{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.username{
+	color: black;
+	margin-top: 10px;
+	/* Title 3 */
+	font-family: Poppins, sans-serif;
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 28px; /* 155.556% */
 }
 .counters{
 	background-image: url('background.png');
@@ -450,6 +468,67 @@ h3{
 	font-weight: 400;
 	line-height: 24px; /* 171.429% */
 }
+.clients{
+	margin-top: 30px;
+	margin-bottom: 50px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.clients > div{
+	max-width: 173.33px;
+}
+.text{
+	text-align: left;
+}
+footer{
+	background-color: black;
+	padding: 40px;
+	display: flex;
+	flex-direction: column;
+}
+.white{
+	color:  white;
+}
+.links-section{
+	font-family: Poppins;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: 26px; /* 162.5% */
+}
+.links{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
+	align-items: center;
+}
+.links >div{
+	margin-right: 25px;
+	margin-bottom: 30px;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+}
+.icons{
+	display: flex;
+	justify-content: left;
+	max-width: 200px;
+	max-height: 30px;
+}
+.icons > a >img{
+	width: 30px;
+	max-height: 30px;
+	margin-right: 10px;
+}
+.copy{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+	padding-top: 30px;
+	border-top: 3px solid white;
+}
+
 @media screen and (min-width: 599px){
 	main{
 		flex-direction: row;
@@ -465,6 +544,11 @@ h3{
 	.column{
 		padding-bottom: 0px;
 	}
+}
+@media screen and (min-width: 500px){
+	.clients{
+	flex-direction: row;
+}
 }
 @media screen and (min-width: 600px){
 	.column-1{
@@ -524,6 +608,21 @@ h3{
 	}
 	.event-column{
 		margin-left: 20px;
+	}
+	.user{
+		max-width: 250px;
+	}
+	.links{
+	display: flex;
+	width: 100%;
+	flex-direction: row;
+	justify-content: space-between;
+	}
+	.links >div{
+		align-items: start;
+	}
+	br{
+		display: none;
 	}
 
 }
